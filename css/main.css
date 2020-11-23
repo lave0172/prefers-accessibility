@@ -61,6 +61,22 @@ html {
 
 }
 
+@media (prefers-reduced-motion) {
+
+  img {
+    animation: none;
+  }
+
+}
+
+@media (prefers-color-scheme: dark) {
+
+  body {
+    background-color: #222;
+  }
+
+}
+
 /* stylelint-disable media-feature-name-no-unknown */
 
 /**
